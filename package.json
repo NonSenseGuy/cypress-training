@@ -1,25 +1,29 @@
 {
-  "name": "cypress-training",
-  "version": "1.0.0",
-  "description": "This is a Workshop about Cypress",
-  "main": "index.js",
-  "scripts": {
-    "test": "cypress open"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NonSenseGuy/cypress-training.git"
-  },
-  "keywords": [
-    "ui-testing",
-    "dojo",
-    "practice",
-    "cypress"
-  ],
-  "author": "Alejandro Barrera <alejobarre9@gmail.com> (github.com/nonsenseguy)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NonSenseGuy/cypress-training/issues"
-  },
-  "homepage": "https://github.com/NonSenseGuy/cypress-training#readme"
+    "name": "cypress-training",
+    "version": "1.0.0",
+    "description": "This is a Workshop about Cypress",
+    "main": "index.js",
+    "scripts": {
+        "test:open": "cypress open",
+        "test": "cypress open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NonSenseGuy/cypress-training.git"
+    },
+    "keywords": [
+        "ui-testing",
+        "dojo",
+        "practice",
+        "cypress"
+    ],
+    "author": "Alejandro Barrera <alejobarre9@gmail.com> (github.com/nonsenseguy)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/NonSenseGuy/cypress-training/issues"
+    },
+    "homepage": "https://github.com/NonSenseGuy/cypress-training#readme",
+    "devDependencies": {
+        "cypress": "^7.7.0"
+    }
 }
